@@ -1,0 +1,3 @@
+[submodule "anatole"]
+	path = anatole
+	url = https://github.com/lxndrblz/anatole.git
