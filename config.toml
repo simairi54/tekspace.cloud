@@ -1,0 +1,78 @@
+    publishDir = 'docs'
+
+    baseurl = 'https://www.tekspace.cloud/'
+    languageCode = 'en-us'
+    title = 'Leo Simairi Blog'
+    theme='anatole'
+    summarylength = 10
+    enableEmoji = true
+    enableRobotsTXT = true
+    enableInlineShortcodes = true
+    privacy_pack = true
+    #Link custom CSS and JS assets
+    #(relative to /static/css and /static/js respectively)
+    custom_css = []
+    custom_js = []
+
+    [params]
+    gtagId = 'G-xxxxxxxxxx'
+    #hidesidebar = true
+    displayMode = 'dark'
+    title = 'The Tek Space'
+    description = 'Welcome to my Blog! \n I’m Leo Simairi and on this blog I’ll share my daily behaviour and the most relevant personal experiences. \n  I love sport, technology and travelling!'
+    profilePicture = 'images/picture_profile.jpg'
+    #author = 'Leo Simairi'
+    Copyright = 'tekspace.cloud - All rights reserved.'
+    keywords = 'Netowork, Data Center, SDN, Experience, Technology, Cisco, Technology'
+    contentratio = 0.7
+
+    [[params.socialIcons]]
+    icon = 'fab fa-linkedin'
+    title = 'Likedin'
+    #url = 'https://www.linkedin.com/in/riccardo-nalesso-6b7b92133/'
+
+    [[params.socialIcons]]
+    icon = 'fab fa-github'
+    title = 'GitHub'
+    #url = 'https://github.com/thetechguy-it'
+
+    [[params.socialIcons]]
+    icon = 'fab fa-twitter'
+    title = 'Twitter'
+    #url = 'https://twitter.com/thetechguy_it'
+
+    [[params.socialIcons]]
+    icon = 'fas fa-envelope'
+    title = 'e-mail'
+    #url = 'mailto:riccardo.nalesso10@gmail.com'
+
+    #[[params.socialIcons]]
+    #icon = 'fab fa-telegram'
+    #title = 'Telegram'
+    #url = 'https://t.me/xxxxxxxxxx'
+
+    [menu]
+
+    [[menu.main]]
+    name = 'HOME'
+    identifier = 'home'
+    weight = 100
+    url = '/'
+
+    [[menu.main]]
+    name = 'ARCHIVE'
+    weight = 200
+    identifier = 'archive'
+    url = '/post/'
+
+    [[menu.main]]
+    name = 'ABOUT'
+    weight = 300
+    identifier = 'about'
+    url = '/about/'
+
+    [[menu.main]]
+    name = 'CERTIFICATIONS'
+    weight = 400
+    identifier = 'certifications'
+    url = '/certifications/'
